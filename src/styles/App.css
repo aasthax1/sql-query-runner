@@ -1,0 +1,122 @@
+/* Main Container */
+.app-container {
+    width: 85%;
+    max-width: 1000px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    padding: 40px; /* Increased padding for a more spacious feel */
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 40px auto; /* Centering with extra space around */
+  }
+  
+  /* Title */
+  h1 {
+    font-size: 28px;
+    margin-bottom: 35px;  /* Increased space below title */
+  }
+  
+  /* Query Input Section */
+  .query-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;  /* More spacing between dropdown & textarea */
+    margin-bottom: 40px;  /* More spacing before the table */
+  }
+  
+  /* Dropdown */
+  .query-dropdown {
+    width: 100%;
+    max-width: 450px;
+    padding: 14px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  /* Query Textarea */
+  .query-textarea {
+    width: 100%;
+    min-height: 120px; /* Increased height for better input visibility */
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    margin-bottom: 35px; /* More space before table */
+  }
+  
+  /* Execute Button */
+  .execute-btn {
+    background: #7be660;
+    color: black;
+    padding: 14px 22px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .execute-btn:hover {
+    background: #ff9900;
+  }
+  
+  /* Query Results Section */
+  .query-results-container {
+    margin-top: 50px; /* Increased spacing before results table */
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+  
+  /* Table Styles */
+  .result-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* More space before table rows */
+  }
+  
+  .result-table th,
+  .result-table td {
+    border: 1px solid #ddd;
+    padding: 18px; /* Increased padding for more space */
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  .result-table th {
+    background: #6f86d3;
+    color: white;
+    font-size: 18px;
+  }
+  
+  .result-table tr:nth-child(even) {
+    background: #f2f2f2;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .app-container {
+      width: 95%;
+      padding: 30px;
+    }
+  
+    .query-dropdown,
+    .query-textarea {
+      font-size: 16px;
+    }
+  
+    .execute-btn {
+      font-size: 16px;
+      padding: 12px 18px;
+    }
+  }
+  
