@@ -1,32 +1,32 @@
-/* Main Container */
+
 .app-container {
     width: 85%;
     max-width: 1000px;
     background: linear-gradient(135deg, #6e8efb, #a777e3);
     color: white;
-    padding: 40px; /* Increased padding for a more spacious feel */
+    padding: 40px; 
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     text-align: center;
-    margin: 40px auto; /* Centering with extra space around */
+    margin: 40px auto; 
   }
   
-  /* Title */
+  
   h1 {
     font-size: 28px;
-    margin-bottom: 35px;  /* Increased space below title */
+    margin-bottom: 35px;  
   }
   
-  /* Query Input Section */
+ 
   .query-input-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 25px;  /* More spacing between dropdown & textarea */
-    margin-bottom: 40px;  /* More spacing before the table */
+    gap: 25px;  
+    margin-bottom: 40px;  
   }
   
-  /* Dropdown */
+  
   .query-dropdown {
     width: 100%;
     max-width: 450px;
@@ -39,18 +39,17 @@
     cursor: pointer;
   }
   
-  /* Query Textarea */
   .query-textarea {
     width: 100%;
-    min-height: 120px; /* Increased height for better input visibility */
+    min-height: 120px; 
     padding: 14px;
     font-size: 16px;
     border-radius: 10px;
     border: 2px solid #fff;
-    margin-bottom: 35px; /* More space before table */
+    margin-bottom: 35px; 
   }
   
-  /* Execute Button */
+  
   .execute-btn {
     background: #7be660;
     color: black;
@@ -67,9 +66,8 @@
     background: #ff9900;
   }
   
-  /* Query Results Section */
   .query-results-container {
-    margin-top: 50px; /* Increased spacing before results table */
+    margin-top: 50px; 
     background: white;
     padding: 30px;
     border-radius: 10px;
@@ -77,17 +75,17 @@
     color: black;
   }
   
-  /* Table Styles */
+ 
   .result-table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px; /* More space before table rows */
+    margin-top: 20px; 
   }
   
   .result-table th,
   .result-table td {
     border: 1px solid #ddd;
-    padding: 18px; /* Increased padding for more space */
+    padding: 18px; 
     text-align: left;
     font-size: 16px;
   }
@@ -102,7 +100,7 @@
     background: #f2f2f2;
   }
   
-  /* Responsive */
+  
   @media (max-width: 600px) {
     .app-container {
       width: 95%;

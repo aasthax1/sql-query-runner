@@ -9,8 +9,8 @@ const QueryInput = ({ onExecute }) => {
     { label: "Get all employees", value: "SELECT * FROM employees;" },
     { label: "Get all products", value: "SELECT * FROM products;" },
     { label: "Get employees from IT department", value: "SELECT * FROM employees WHERE department = 'IT';" },
-    { label: "Get employees with salary above Rs.50,000", value: "SELECT * FROM employees WHERE salary > 50000;" },  // NEW QUERY 1
-    { label: "Get products in 'Electronics' category", value: "SELECT * FROM products WHERE category = 'Electronics';" }  // NEW QUERY 2
+    { label: "Get employees with salary above Rs.50,000", value: "SELECT * FROM employees WHERE salary > 50000;" }, 
+    { label: "Get products in 'Electronics' category", value: "SELECT * FROM products WHERE category = 'Electronics';" }  
   ];
 
   const handleQueryChange = (event) => {
