@@ -12,7 +12,7 @@ The application includes:
 ## Tech Stack  
 The project is built using:  
 - **JavaScript Framework:** React (with Vite for optimized builds)  
-- **State Management:** React's useState & useEffect  
+- **State Management:** React's useState 
 - **Styling:** CSS  
 - **Deployment:** Netlify  
 - **Version Control:** GitHub   
